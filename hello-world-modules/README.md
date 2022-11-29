@@ -20,6 +20,8 @@
 3. Build 
 
     `npm run build`
+    `npm run build-o3` (build with `-o3` flag)
+    `npm run build-oz` (build with `-oz` flag)
 
 4. Open index.html in a web browser
 

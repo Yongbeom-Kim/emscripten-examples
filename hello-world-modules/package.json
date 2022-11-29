@@ -9,7 +9,9 @@
     "build2": "emcc src/helloworld.cpp -o dst/helloworld.js -sMODULARIZE",
     "build3": "emcc src/worldhello.cpp -o dst/worldhello.js -sMODULARIZE",
     "append_fncall": "node ./append_to_file.js",
-    "build": "npm run build1 & npm run build2 & npm run build3 && npm run append_fncall"
+    "build": "npm run build1 & npm run build2 & npm run build3 && npm run append_fncall",
+    "build-o3": "npm run build1  -- -O3& npm run build2  -- -O3& npm run build3 -- -O3 && npm run append_fncall",
+    "build-oz": "npm run build1  -- -Oz& npm run build2  -- -Oz& npm run build3 -- -Oz && npm run append_fncall"
   },
   "keywords": [],
   "author": "",
