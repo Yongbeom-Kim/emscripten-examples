@@ -1,0 +1,12 @@
+{
+  "name": "emscripten-modules",
+  "version": "1.0.0",
+  "description": "- This repo consists of C++ files compiled with the `-sMODULARIZE` tag, so that >1 WASM modules can be loaded at once in a page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
