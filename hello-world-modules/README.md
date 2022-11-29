@@ -34,3 +34,6 @@
 
 5. Open Console (Ctrl+J on Chrome)
 
+![image](https://user-images.githubusercontent.com/63487502/204581553-3520e6ad-0c6f-4a45-9b4f-1cd6c1424663.png)
+
+
