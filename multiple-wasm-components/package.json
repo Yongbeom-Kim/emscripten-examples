@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build1": "emcc src/hellohello.cpp -o dst/hellohello.js -s EXPORT_ES6=1 -sMODULARIZE",
-    "build2": "emcc src/helloworld.cpp -o dst/helloworld.js -s EXPORT_ES6=1 -sMODULARIZE",
-    "build3": "emcc src/worldhello.cpp -o dst/worldhello.js -s EXPORT_ES6=1 -sMODULARIZE",
-    "append_fncall": "node ./append_to_file.js",
+    "build1": "emcc src/hellohello.cpp -o dst/hellohello.js",
+    "build2": "emcc src/helloworld.cpp -o dst/helloworld.js",
+    "build3": "emcc src/worldhello.cpp -o dst/worldhello.js",
     "build": "npm run build1 & npm run build2 & npm run build3",
     "build-o3": "npm run build1  -- -O3& npm run build2  -- -O3& npm run build3 -- -O3",
     "build-oz": "npm run build1  -- -Oz& npm run build2  -- -Oz& npm run build3 -- -Oz"
