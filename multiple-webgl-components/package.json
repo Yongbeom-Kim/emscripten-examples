@@ -1,0 +1,14 @@
+{
+  "name": "multiple-webgl-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build1": "emcc ./src/canvas1.cpp -o ./dst/canvas1.js -s EXPORT_ES6=1 -sMODULARIZE",
+    "build2": "emcc ./src/canvas2.cpp -o ./dst/canvas2.js -s EXPORT_ES6=1 -sMODULARIZE"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
