@@ -1,8 +1,12 @@
 # emscripten-examples
 
-This is a repository of some pertinent emscripten examples.
+## Overview
+A repository of some pertinent emscripten examples
 
-## Instructions (For any example)
+- [multiple-wasm-components](multiple-wasm-components) is a minimal example of loading independent wasm code ('modules') using the `type="module"` attribute in `<script>` tags.
+- [multiple-webgl-components](multiple-webgl-components) takes the above approache to load two WebGL code 'modules' independently on two canvases.
+
+## Instructions (To build and load examples)
 
 1. Install [Emscripten](http://emscripten.org)
 2. Clone this repo
